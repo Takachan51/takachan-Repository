@@ -7,7 +7,7 @@ if (!isset($_SESSION["USERID"])) {
 	exit;
 }
 
-echo "ようこそ" . $_SESSION["USERID"] . "さん";
+echo "ログインできました。" . $_SESSION["USERID"] . "さん";
 ?>
 
 <!doctype html>
@@ -18,7 +18,7 @@ echo "ようこそ" . $_SESSION["USERID"] . "さん";
   </head>
   <body>
   <ul>
-  <li><a href="logout.php">ログアウト</a></li>
+  <li><a href="logout.php">ログアウトしますか？</a></li>
   </ul>
   </body>
 </html>

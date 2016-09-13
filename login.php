@@ -10,7 +10,7 @@ $viewUserId = htmlspecialchars($_POST["userid"], ENT_QUOTES);
 if (isset($_POST["login"])) {
 
 	// 認証成功
-	if ($_POST["userid"] == "hoge" && $_POST["password"] == "hoge") {
+	if ($_POST["userid"] == "sotuken" && $_POST["password"] == "sotuken") {
 		// セッションIDを新規に発行する
 		session_regenerate_id(TRUE);
 		$_SESSION["USERID"] = $_POST["userid"];
