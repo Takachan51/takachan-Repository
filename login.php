@@ -6,8 +6,7 @@
 </head>
     <body>
     <?php
-		$message = "Hello World";
-		echo "<h1>$message</h1>";
+		echo '<p>Hello World</p>';
 	?>
     </body>
 </html>
