@@ -4,18 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-<frameset>
-    <frame>
-    <frame>
-    <noframes>
     <body>
-    <p>This page uses frames. The current browser you are using does not support frames.</p>
     <?php
-    $message = "Hello World";
-    echo "<h1>$message</h1>";
-    ?>
+		$message = "Hello World";
+		echo "<h1>$message</h1>";
 	?>
     </body>
-    </noframes>
-</frameset>
 </html>
