@@ -2,7 +2,7 @@
 
 session_start();
 
-$db['host'] = "localhost";  // DBサーバのURL
+$db['host'] = "150.89.234.16";  // DBサーバのURL
 $db['username'] = "imagawa";  // ユーザー名
 $db['password'] = "naoya";  // ユーザー名のパスワード
 $db['dbname'] = "middle_manager";  // データベース名
