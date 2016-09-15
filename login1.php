@@ -2,10 +2,10 @@
 
 session_start();
 
-$db['host'] = "150.89.234.16";  // DBサーバのURL
-$db['username'] = "imagawa";  // ユーザー名
-$db['password'] = "naoya";  // ユーザー名のパスワード
-$db['dbname'] = "middle_manager";  // データベース名
+//$dsn = 'mysql:dbname=fp_test;host=150.89.234.16';
+$dsn = 'mysql:dbname=middle_manager;host=150.89.234.16;charset=utf8';
+$user = 'user';
+$pwd = 'pwd';
 
 // エラーメッセージの初期化
 $errorMessage = "";
