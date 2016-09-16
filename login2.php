@@ -6,11 +6,11 @@
 <body>
 	<h1>Login form</h1>
 	<form method="post" action="main1.php">
-		user:<br>
-		<input type="text" name="ユーザー名">
+		ユーザー名:<br>
+		<input type="text" name="user">
 		<br>
-		password:<br>
-		<input type="text" name="パスワード">
+		パスワード:<br>
+		<input type="text" name="pass">
 		<input type="submit" value="ログイン">
 	</form>
 </body>
