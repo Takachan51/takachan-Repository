@@ -23,8 +23,8 @@ $username = "root";
 $password = "fkmnuser";
 $dbname = "middle_manager";
 // インプット値
-$i_user = (string)filter_input(INPUT_POST, 'user');
-$i_pass = (string)filter_input(INPUT_POST, 'pass');
+$i_user = (string)filter_input(INPUT_POST, 'ユーザー名');
+$i_pass = (string)filter_input(INPUT_POST, 'パスワード');
 
 try {
 	// DB接続

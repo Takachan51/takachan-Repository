@@ -17,12 +17,7 @@ if (!isset($_SESSION["USERID"])) {
     <body>
         <h1>メイン画面</h1>
         <!-- ユーザーIDにHTMLタグが含まれても良いようにエスケープする -->
-        <p>ログインできました
-        <u><?php
-         htmlspecialchars($_SESSION["USERID"], ENT_QUOTES);
-        ?></u>
-        さん
-        </p>  <!-- ユーザー名をechoで表示 -->
+        <p>ログインできました </p>
         <ul>
             <li><a href="Logout.php">ログアウト</a></li>
         </ul>
