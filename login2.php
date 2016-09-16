@@ -7,11 +7,11 @@
 	<h1>Login form</h1>
 	<form method="post" action="main1.php">
 		user:<br>
-		<input type="text" name="user">
+		<input type="text" name="ユーザー名">
 		<br>
 		password:<br>
-		<input type="text" name="pass">
-		<input type="submit" value="Login">
+		<input type="text" name="パスワード">
+		<input type="submit" value="ログイン">
 	</form>
 </body>
 </html>
@@ -23,8 +23,8 @@ $username = "root";
 $password = "fkmnuser";
 $dbname = "middle_manager";
 // インプット値
-$i_user = (string)filter_input(INPUT_POST, 'ユーザー名');
-$i_pass = (string)filter_input(INPUT_POST, 'パスワード');
+$i_user = (string)filter_input(INPUT_POST, 'user');
+$i_pass = (string)filter_input(INPUT_POST, 'pass');
 
 try {
 	// DB接続
