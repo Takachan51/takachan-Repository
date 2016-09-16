@@ -4,7 +4,7 @@
 	<title>ログイン</title>
 </head>
 <body>
-	<h1>Login form</h1>
+	<h1>ログイン</h1>
 	<form method="post" action="main1.php">
 		ユーザー名:<br>
 		<input type="text" name="user">
